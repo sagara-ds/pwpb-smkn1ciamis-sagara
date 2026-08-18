@@ -4,6 +4,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>git</title>
+  <style>
+    .blue {
+      color: blue;
+    }
+  </style>
 </head>
 <body>
 <form>
@@ -35,5 +40,16 @@
     <textarea id="comments" name="comments" rows="4" cols="50"></textarea>
   </div>
 </form>
+<div class="hasil" id="hasil"></div>
+<script>
+  console.log('Hai Ini sagara');
+  // alert('Halo ini javascript');
+  // document.write('<h1>bla bla bla</h1> <h2>arbi dan dandan</h2>')
+  let itemSelected = document.getElementById('hasil')
+  console.log(itemSelected)
+
+  itemSelected.innerHTML = '<h2>We look over here</h2>'
+  itemSelected.classList.add ('blue')
+</script>
 </body>
 </html>
