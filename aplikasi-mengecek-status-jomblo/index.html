@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jomblo</title>
+</head>
+<body>
+    <script>
+        let tahun
+        tahun = prompt ("Berapa tahun kamu jomblo");
+        if (isNaN(tahun)) {
+            console.log("hanya angka")
+        }
+        else if (tahun <= 2 ){
+            console.log("Jomblo fresh");
+        }else if (tahun <= 5){
+            console.log("Mulai lapuk");
+        }else if (tahun <= 10){
+            console.log("Perlu Dukun");
+        }else if (tahun > 10){
+            console.log("Legendaris");
+        }
+    </script>
+</body>
+</html>
